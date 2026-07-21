@@ -1,47 +1,50 @@
-# 🎓 Alma Estudos Visuais — Site Institucional
+# 🎨 Alma Estudos Visuais — Site Artístico
 
-Site institucional desenvolvido para a **Alma Estudos Visuais**, com foco em performance, design moderno e experiência fluida para o usuário.
-
----
-
-## 🔗 Acesse o Site
-
-> 🌐 [almaestudosvisuais.com.br](https://almaestudosvisuais.com.br)
+> Site artístico minimalista com identidade visual personalizada, desenvolvido para estúdio de artes visuais com foco em experiência do usuário e estética refinada.
 
 ---
 
 ## 📌 Sobre o Projeto
 
-Projeto de desenvolvimento web completo, do protótipo à entrega final:
+Site desenvolvido para o estúdio **Alma Estudos Visuais**, com identidade visual exclusiva e layout responsivo. O projeto traduz a linguagem artística do cliente em uma experiência digital imersiva — estética refinada a serviço da expressão criativa.
 
-- ✅ Design elegante e responsivo
-- ✅ Performance otimizada de carregamento
-- ✅ Fluxos de automação integrados
-- ✅ Infraestrutura de hosting robusta
+🔗 **Acesse:** [almaestudosvisuais.com.br](https://almaestudosvisuais.com.br)
 
 ---
 
-## 🛠️ Tecnologias & Ferramentas
+## ⚡ Funcionalidades
 
-| Ferramenta | Uso |
-|-----------|-----|
-| TypeScript | Desenvolvimento da interface e lógica do site |
-| Figma | Prototipagem e design das telas |
-| Claude AI | Desenvolvimento ágil assistido por IA |
-| Lovable | Plataforma de desenvolvimento acelerado |
-
----
-
-## ⚡ Destaques Técnicos
-
-- **Desenvolvimento ágil via IA** — uso de Claude e Lovable para acelerar entrega sem comprometer qualidade
-- **Prototipagem no Figma** — design validado antes do desenvolvimento
-- **Hosting otimizado** — configuração voltada para velocidade e disponibilidade
+- ✅ Design minimalista com identidade visual personalizada
+- ✅ Galeria de obras e projetos artísticos
+- ✅ Layout responsivo (mobile, tablet, desktop)
+- ✅ Animações suaves para experiência imersiva
+- ✅ Formulário de contato
+- ✅ Tipografia e paleta de cores exclusivas
 
 ---
 
-## 📬 Desenvolvido por
+## 🛠️ Tecnologias
 
-**Victor Germano** — Desenvolvedor Web
+| Camada | Tecnologia |
+|---|---|
+| Estrutura | HTML5 semântico |
+| Estilo | CSS3 (animações, variáveis CSS, Grid) |
+| Interatividade | JavaScript puro (ES6+) |
+| Design | Figma |
+| Prototipagem | IA (Lovable / Claude) |
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/victor-germano-65787b2b1/)
+---
+
+## 👨‍💻 Autor
+
+**Victor Germano** — Desenvolvedor Web Full Stack · IA & Automação
+
+- 🌐 [vgermano1711.github.io/portfolio-germano-dev](https://vgermano1711.github.io/portfolio-germano-dev)
+- 📧 dev.germanoo@gmail.com
+- 💼 [linkedin.com/in/victor-germano-65787b2b1](https://linkedin.com/in/victor-germano-65787b2b1)
+
+---
+
+## 📄 Licença
+
+MIT License

@@ -1,0 +1,49 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Check JS syntax
+        run: node --check js/main.js
+
+      - name: Check HTML tags are balanced
+        run: |
+          python3 -c "
+          import re
+          html = open('index.html', encoding='utf-8').read()
+          void_tags = {'meta','link','br','img','input','hr'}
+          tags = re.findall(r'<(/?)([a-zA-Z0-9]+)[^>]*?(/?)>', html)
+          stack = []
+          ok = True
+          for closing, name, selfclose in tags:
+              name = name.lower()
+              if name in void_tags or selfclose:
+                  continue
+              if not closing:
+                  stack.append(name)
+              else:
+                  if not stack or stack[-1] != name:
+                      print('MISMATCH at', name, 'stack:', stack[-3:])
+                      ok = False
+                  else:
+                      stack.pop()
+          if stack:
+              print('Unclosed tags:', stack)
+              ok = False
+          if not ok:
+              raise SystemExit(1)
+          print('HTML tags balanced')
+          "

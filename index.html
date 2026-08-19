@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alma Estudos Visuais</title>
+  <meta name="description" content="Alma Estudos Visuais — estúdio de artes visuais. Identidade visual, galeria de obras e contato." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#top" class="logo">Alma</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="siteNav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" id="siteNav">
+        <a href="#sobre">Sobre</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <section class="hero">
+      <div class="container">
+        <h1 class="fade-in">Alma Estudos Visuais</h1>
+        <p class="hero-subtitle fade-in">Estúdio de artes visuais — expressão criativa em forma de imagem.</p>
+        <a href="#galeria" class="button fade-in">Ver galeria</a>
+      </div>
+    </section>
+
+    <section id="sobre" class="section">
+      <div class="container">
+        <h2 class="fade-in">Sobre o estúdio</h2>
+        <p class="fade-in">
+          O Alma Estudos Visuais traduz linguagem artística em experiência digital.
+          Cada peça é pensada para comunicar identidade e sensibilidade visual,
+          com atenção a tipografia, composição e paleta de cores.
+        </p>
+      </div>
+    </section>
+
+    <section id="galeria" class="section section-alt">
+      <div class="container">
+        <h2 class="fade-in">Galeria</h2>
+        <p class="fade-in gallery-note">
+          Espaço reservado para as obras do estúdio — substitua os blocos abaixo pelas imagens reais
+          em <code>assets/obras/</code>.
+        </p>
+        <div class="gallery" id="gallery"></div>
+      </div>
+    </section>
+
+    <section id="contato" class="section">
+      <div class="container">
+        <h2 class="fade-in">Contato</h2>
+        <form class="contact-form fade-in" id="contactForm" novalidate>
+          <div class="field">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" required autocomplete="name" />
+          </div>
+          <div class="field">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required autocomplete="email" />
+          </div>
+          <div class="field">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="button">Enviar</button>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Alma Estudos Visuais</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
